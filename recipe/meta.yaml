@@ -46,22 +46,22 @@ requirements:
     - curl              # [win]
   host:
     - nasm 2.11.06      # [win]
-    - bzip2             # [unix]
-    - openssl           # [unix]
+    - bzip2
+    - openssl
     - readline          # [unix]
-    - sqlite            # [unix]
-    - tk                # [unix]
-    - xz                # [unix]
-    - zlib              # [unix]
+    - sqlite
+    - tk
+    - xz
+    - zlib
     - ncurses           # [linux]
     - libffi            # [unix]
   run:
-    - openssl           # [unix]
+    - openssl
     - readline          # [unix]
-    - sqlite            # [unix]
-    - tk                # [unix]
-    - xz                # [unix]
-    - zlib              # [unix]
+    - sqlite
+    - tk
+    - xz
+    - zlib
     - ncurses           # [linux]
     - libffi            # [unix]
     #- vs2015_runtime    # [win]
